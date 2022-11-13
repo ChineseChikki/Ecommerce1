@@ -1,0 +1,48 @@
+.login__container input,
+.signup__container input {
+  height: 45px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+.login__container button,
+.signup__container button {
+  width: 200px;
+  outline: none;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.login__container,
+.signUp__container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login__form,
+.signUp__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.loginBtn,
+.signUpBtn {
+  background-color: green;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.link {
+  cursor: pointer;
+  color: rgb(39, 147, 39);
+}
+
+@media screen and (max-width: 800px) {
+  .login__container,
+  .signUp__container {
+    padding: 30px;
+  }
+}
